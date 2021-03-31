@@ -19,12 +19,7 @@ public class VocaController {
     public void createWallet(@PathVariable String phoneNumber) throws VocaException {
         vocaService.createWallet(phoneNumber);
     }
-
-    @GetMapping("/credit/{phoneNumber}")
-    public void health(@PathVariable String phoneNumber) {
-        System.out.println("working fine"+phoneNumber);
-    }
-
+    
     @GetMapping("/getBalance/{phoneNumber}")
     public int getBalance(@PathVariable String phoneNumber) throws VocaException  {
         return vocaService.getBalance(phoneNumber);

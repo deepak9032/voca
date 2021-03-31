@@ -19,6 +19,8 @@ How to Run:
 
     3. Wallet is created with minimum required balance(X), have hard-coded it to Rs. 5000 for now.
 
-    4. Throwing custom exceptions for edge-cases.
+    4. transactionLog is a map which stores all debit/credit logs for an user as a list of string.
 
-    5. Synchronized the code inside debit method to make it thread safe
+    5. Throwing custom exceptions for edge-cases.
+
+    6. Synchronized the code inside debit method to make it thread safe

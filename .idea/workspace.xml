@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bd7a5d2-ad4a-4602-ad87-9ac4d57209e5" name="Default Changelist" comment="" />
+    <list default="true" id="0bd7a5d2-ad4a-4602-ad87-9ac4d57209e5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +18,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -55,6 +60,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.VocaApplication">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VocaApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="voca" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zolve.demo.VocaApplication" />
@@ -79,6 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1617166928275</updated>
       <workItem from="1617166930347" duration="5812000" />
+      <workItem from="1617173041400" duration="948000" />
     </task>
     <servers />
   </component>

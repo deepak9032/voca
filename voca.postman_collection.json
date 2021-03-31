@@ -1,0 +1,95 @@
+{
+	"info": {
+		"_postman_id": "0c42e4ac-6a52-4c5b-92e4-cae44c590710",
+		"name": "voca",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "create wallet",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/voca/createWallet/7406122200",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"voca",
+						"createWallet",
+						"7406122200"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get balance",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/voca/getBalance/7406122200",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"voca",
+						"getBalance",
+						"7406122200"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "credit money",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/voca/credit/7406122200/6000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"voca",
+						"credit",
+						"7406122200",
+						"6000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "debit money",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/voca/debit/7406122200/4000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"voca",
+						"debit",
+						"7406122200",
+						"4000"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
